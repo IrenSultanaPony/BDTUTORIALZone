@@ -25,10 +25,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FragmentCalculator" />
+        <activity android:name=".CalculatorActivity" />
         <activity android:name=".ScientificCalculator" />
         <activity android:name=".History" />
-        <activity android:name=".FragmentDecisionMaking" />
+        <activity android:name=".ActivityDecisionMaking" />
         <activity android:name=".DigitConversionActivity" />
         <activity android:name=".UnitArea" />
         <activity android:name=".UnitLength" />

@@ -15,10 +15,10 @@ public class ActivityDecisionMaking extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_decision_making);
-        mToolbar=(Toolbar)findViewById(R.id.toolbar);
-        ActionBar actionBar=getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        setSupportActionBar(mToolbar);
+//        mToolbar=(Toolbar)findViewById(R.id.toolbar);
+//        ActionBar actionBar=getSupportActionBar();
+////        actionBar.setDisplayHomeAsUpEnabled(true);
+//        setSupportActionBar(mToolbar);
 
     }
 
