@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/calculator_back"
+android:fitsSystemWindows="true"
+tools:context="com.example.it_irine.bdtutorialzone.DigitConversionActivity">
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+       />
+
+</android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:gravity="center"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.it_irine.bdtutorialzone.DigitConversionActivity"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:id="@+id/area"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_cover"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Length"
+            android:id="@+id/length"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_cover"
+            android:layout_below="@+id/area"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:id="@+id/weight"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_cover"
+            android:layout_below="@+id/length"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:id="@+id/tempearture"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_cover"
+            android:layout_below="@+id/weight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onClick"/>
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.design.widget.CoordinatorLayout>

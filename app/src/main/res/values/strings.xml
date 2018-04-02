@@ -61,4 +61,44 @@
     <string name="openBracket">(</string>
     <string name="closeBracket">)</string>
     <string name="history">History</string>
+    <string name="calculator">calculator</string>
+    <string name="scientific_calculator">Scientific Calculator</string>
+    <string name="unit_converter">UNIT CONVERTER</string>
+
+    <string-array name="area">
+        <item>Sq. Millimeter</item>
+        <item>Sq. Centimeter</item>
+        <item>Sq Meter</item>
+        <item>Sq. Kilometer</item>
+        <item>Acre</item>
+        <item>Hectare</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Nanometer</item>
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Inches</item>
+        <item>Foot</item>
+        <item>Yards</item>
+        <item>Mile</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Farenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="weight">
+        <item>Milligrams</item>
+        <item>Centigrams</item>
+        <item>Decigrams</item>
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Metric tonnes</item>
+        <item>Pounds</item>
+        <item>Ounces</item>
+    </string-array>
 </resources>
